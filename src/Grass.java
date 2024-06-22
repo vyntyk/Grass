@@ -44,7 +44,6 @@ class MyComponent extends JComponent {
                     frame = frame.getScaledInstance(50, 50, Image.SCALE_DEFAULT);
                     g2.drawImage(frame, j * 50, i * 50, getFocusCycleRootAncestor());
                 } catch (IOException e) {
-                    // TODO Auto-generated catch block
                     e.printStackTrace();
                 }
             }
